@@ -41,6 +41,8 @@ namespace HotelListings
 
             services.AddAutoMapper(typeof(MapperInitializer));
 
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "Hotel Listing", Version = "v1" });
